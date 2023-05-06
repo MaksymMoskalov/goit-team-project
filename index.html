@@ -5,9 +5,13 @@
     <link rel="icon" type="image/svg+xml" href="/goit-team-project/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vanilla App Template</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
     
-    <script type="module" crossorigin src="/goit-team-project/assets/index-7ae64c72.js"></script>
-    <link rel="stylesheet" href="/goit-team-project/assets/index-4dd3b3c5.css">
+    <script type="module" crossorigin src="/goit-team-project/assets/index-f6ce1440.js"></script>
+    <link rel="stylesheet" href="/goit-team-project/assets/index-635e0876.css">
   </head>
   <body>
     <!-- Header -->
@@ -24,7 +28,41 @@
 </section>
 
       <!-- slider-->
-      <!-- Элементы для вызова модальных окон, могут быть любые -->
+      <div class="swiper mySwiper">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">
+      <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+    </div>
+    <div class="swiper-slide">
+      <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+    </div>
+    <div class="swiper-slide">
+      <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+    </div>
+    <div class="swiper-slide">
+      <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+    </div>
+  </div>
+  <div class="swiper-pagination"></div>
+</div>
+
+      <div class="swiper2 mySwiper1">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">Slide 1</div>
+    <div class="swiper-slide">Slide 2</div>
+    <div class="swiper-slide">Slide 3</div>
+    <div class="swiper-slide">Slide 4</div>
+    <div class="swiper-slide">Slide 5</div>
+    <div class="swiper-slide">Slide 6</div>
+    <div class="swiper-slide">Slide 7</div>
+    <div class="swiper-slide">Slide 8</div>
+    <div class="swiper-slide">Slide 9</div>
+  </div>
+</div>
+
+    </main>
+    <!-- footer -->
+    <!-- Элементы для вызова модальных окон, могут быть любые -->
 
 <button type="button" class="js-open-modal" data-modal="2">
   Открыть окно 2
@@ -48,6 +86,7 @@
 <div class="overlay js-overlay-modal"></div>
 
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     
   </body>
 </html>
