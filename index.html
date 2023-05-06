@@ -7,11 +7,15 @@
     <title>Vanilla App Template</title>
     <link
       rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
     />
     
     <script type="module" crossorigin src="/goit-team-project/assets/index-f6ce1440.js"></script>
-    <link rel="stylesheet" href="/goit-team-project/assets/index-635e0876.css">
+    <link rel="stylesheet" href="/goit-team-project/assets/index-6e77808a.css">
   </head>
   <body>
     <!-- Header -->
@@ -62,6 +66,32 @@
 
     </main>
     <!-- footer -->
+    <footer class="footer">
+  <p
+    class="text animate__animated animate__rubberBand wow"
+    data-wow-delay="300ms"
+  >
+    Lorem ipsum dolor sit amet.
+  </p>
+  <p
+    class="text animate__animated animate__backInDown wow"
+    data-wow-delay="600ms"
+  >
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis dolor earum
+    dignissimos similique accusamus? Repudiandae commodi animi quae vitae
+    repellendus.
+  </p>
+  <p
+    class="text animate__animated animate__fadeInRightBig wow"
+    data-wow-delay="900ms"
+  >
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis dolor earum
+    dignissimos similique accusamus? Repudiandae commodi animi quae vitae
+    repellendus.
+  </p>
+</footer>
+
+    <!-- modal -->
     <!-- Элементы для вызова модальных окон, могут быть любые -->
 
 <button type="button" class="js-open-modal" data-modal="2">
@@ -86,6 +116,10 @@
 <div class="overlay js-overlay-modal"></div>
 
 
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     
   </body>
