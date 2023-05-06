@@ -3,6 +3,7 @@
 @import url('./base/base.css');
 /* header */
 @import url('./main/hero.css');
-/* slider */
+@import url('./slider.css');
+@import url('./slider2.css');
 
 @import url('./modal.css');
