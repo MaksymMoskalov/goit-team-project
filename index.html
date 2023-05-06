@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vanilla App Template</title>
     
-    <script type="module" crossorigin src="/goit-team-project/assets/index-fac82e35.js"></script>
-    <link rel="stylesheet" href="/goit-team-project/assets/index-4edb8604.css">
+    <script type="module" crossorigin src="/goit-team-project/assets/index-7ae64c72.js"></script>
+    <link rel="stylesheet" href="/goit-team-project/assets/index-4dd3b3c5.css">
   </head>
   <body>
     <!-- Header -->
@@ -18,15 +18,35 @@
     impedit? Aliquam reiciendis, dolores enim aliquid beatae dolorum magnam.
   </p>
   <img src="/goit-team-project/assets/vite-logo-51249ca9.png" alt="" width="300" height="300" />
+  <button type="button" class="js-open-modal" data-modal="1">
+    Открыть окно 1
+  </button>
 </section>
 
       <!-- slider-->
-      <load src="" />
-    </main>
-    <!-- footer -->
-    <load src="" />
-    <!-- modal -->
-    <load src="" />
+      <!-- Элементы для вызова модальных окон, могут быть любые -->
+
+<button type="button" class="js-open-modal" data-modal="2">
+  Открыть окно 2
+</button>
+
+<!-- Несколько модальных окон -->
+
+<div class="modal" data-modal="1">
+  <!--   Svg иконка для закрытия окна  -->
+  <button type="button" class="js-modal-close">close</button>
+  <p class="modal__title">Заголовок окна 1</p>
+</div>
+
+<div class="modal" data-modal="2">
+  <!--   Svg иконка для закрытия окна  -->
+  <button type="button" class="js-modal-close">close</button>
+  <p class="modal__title">Заголовок окна 2</p>
+</div>
+
+<!-- Подложка под модальным окном -->
+<div class="overlay js-overlay-modal"></div>
+
 
     
   </body>
